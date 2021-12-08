@@ -1,0 +1,70 @@
+ul,
+ul > li {
+  list-style: none;
+}
+
+.desc {
+  margin-top: 8px;
+}
+.desc > p {
+  font-size: 12px;
+  margin: 0px !important;
+  color: gray;
+}
+
+.card {
+  border: 1px solid gray;
+  text-align: center;
+  margin: 0 auto;
+  width: calc(100% - 4px);
+  margin-top: 12px;
+}
+
+.card:last-of-type {
+  margin-bottom: 24px;
+}
+
+.card > p {
+  margin: 0 !important;
+}
+
+.avaloniaui {
+  background-color: #8b44ac;
+  color: #fff;
+}
+
+.kaios {
+  height: 36px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6f02b5;
+}
+
+.wpf {
+  height: 36px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00A4EF;
+}
+
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.navbar h1 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 18px;
+}
